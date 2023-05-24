@@ -1,0 +1,11 @@
+.App {
+    text-align: center;
+    margin: 10rem 3rem;
+  } 
+  
+.profile-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
