@@ -29,7 +29,7 @@ const handleClose = () => {
             </div>
         </div>
  
-         {showModal && <Modal id={id} name={name} role={role} skills={skills} profilePic={profilePic} handleClose={handleClose}/>}
+         {showModal && <Modal name={name} role={role} skills={skills} profilePic={profilePic} handleClose={handleClose}/>}
     </>
   )
 }

@@ -17,21 +17,21 @@ const App = () => {
 return (
   <div className='App'>
 
-     <div className='profile-card'>
+      <div className='profile-card'>
 
-     {profiles.map(profile =>{
-            return(< Card 
-              key={profile.id} 
-              id={profile.id} 
-              name={profile.name} 
-              skills={profile.skills} 
-              role={profile.role} 
-              profilePic={profile.profilePic} 
-              />)
-             
-          })}
+        {profiles.map(profile =>{
+                return(< Card 
+                  key={profile.id} 
+                  id={profile.id} 
+                  name={profile.name} 
+                  skills={profile.skills} 
+                  role={profile.role} 
+                  profilePic={profile.profilePic} 
+                  />)
+                
+              })}
 
-   </div>
+    </div>
 
   </div>
 )
