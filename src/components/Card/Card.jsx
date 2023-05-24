@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import './Card.css'
-import Modal from '../modal/modal';
+import Modal from '../Modal/Modal';
 import { useState } from 'react';
 
 const Card = ({id, name, profilePic, skills, role}) => { 
